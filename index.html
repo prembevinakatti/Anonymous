@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="loader">
+      <h3>A</h3>
+      <h3>N</h3>
+      <h3>O</h3>
+      <h3>N</h3>
+      <h3>Y</h3>
+      <h3>M</h3>
+      <h3>O</h3>
+      <h3>U</h3>
+      <h3>S</h3>
+    </div>
+
+    <div class="main">
+      <div class="backVideo">
+        <video src="assets/file.mp4" autoplay muted loop></video>
+      </div>
+
+      <nav>
+        <p>ANONYMOUS</p>
+      </nav>
+
+      <div class="section1">
+        <p>Something great is on the way</p>
+        <h1>Coming Soon</h1>
+        <div id="countdown">
+          <div id="timer">
+            <div class="days"><span id="days"></span>days</div>
+            <div class="hours"><span id="hours"></span> hours</div>
+            <div class="minutes"><span id="minutes"></span> minutes</div>
+            <div class="seconds"><span id="seconds"></span> seconds</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="scroll">
+          <p>Scroll Down</p>
+          <i id="scroll-down" class="fa-solid fa-arrow-down"></i>
+        </div>
+      </div>
+
+      <div class="section3" id="section3">
+        <div class="content">
+          <h2>Are you ready ?</h2>
+
+          <p>
+            Our app provides a safe and anonymous platform for college students
+            <br />
+            to vent their frustrations and share their thoughts without <br />
+            revealing their identities. By fostering a supportive community,
+            <br />
+            students can connect, chat, and relieve stress through open, honest
+            <br />
+            conversations.
+          </p>
+        </div>
+
+        <div class="email">
+          <div class="msg">
+            <img src="assets/Shap_18.webp" alt="" />
+            <p>Be the first to hear when we go live</p>
+          </div>
+          <div class="contact">
+            <p>Email*</p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="e668f79b-5b6a-4301-98a7-daa2f1810bf3" />
+              <span>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required />
+                <input
+                  type="checkbox"
+                  name="botcheck"
+                  class="hidden"
+                  style="display: none"
+                />
+                <button type="submit">Notify Me</button>
+              </span>
+            </form>
+          </div>
+        </div>
+        <div class="footer" id="footer">
+          <p>&copy; 2024 by B2C</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
