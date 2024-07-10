@@ -13,7 +13,7 @@ html, body {
 }
 
 nav {
-  position: fixed;
+  position: relative;
   padding: 2vw;
   z-index: 99;
 }
